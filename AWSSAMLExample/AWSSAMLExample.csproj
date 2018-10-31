@@ -49,5 +49,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Core">
+      <Version>3.3.29.3</Version>
+    </PackageReference>
+    <PackageReference Include="AWSSDK.S3">
+      <Version>3.3.26.5</Version>
+    </PackageReference>
+    <PackageReference Include="AWSSDK.SecurityToken">
+      <Version>3.3.4.25</Version>
+    </PackageReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
